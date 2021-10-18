@@ -23,7 +23,7 @@ public class Isw {
     public void verificar_longitud_minima_contraseña_usuario(){
         Persona persona = new Persona();
         boolean esperado = false;
-        boolean resultado = persona.validar_max_contraseña();
+        boolean resultado = persona.validar_max_contraseña("Holanda");
         assertEquals(esperado,resultado);
     }
     @Test
@@ -35,4 +35,4 @@ public class Isw {
 
     }
 }
-}
+
