@@ -8,7 +8,7 @@ public class Producto {
     }
 
     public boolean validar_stock(int cantidad) {
-        if(cantidad > cantidad_stock) {
+        if(cantidad > cantidad_stock || cantidad <=0) {
             return false;
         }
         else {
