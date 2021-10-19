@@ -13,7 +13,7 @@ public class Isw {
     }
 
     @Test
-    public void verificar_que_no_pueda_validar_un_carrito_sir_productos() {
+    public void verificar_que_no_pueda_validar_un_carrito_sin_productos() {
         Carrito carrito = new Carrito();
         boolean esperado = false;
         boolean resultado = carrito.validar_carrito_no_nulo();
@@ -40,14 +40,14 @@ public class Isw {
     public void verificar_que_el_nombre_contenga_menos_de_30_caracteres(){
         Persona persona=new Persona("Fideos Marolio 200gr");
         boolean esperado=true;
-        boolean resultado=persona.validar_max_nombre();
+        boolean resultado=persona.validar_nombre();
         assertEquals(esperado,resultado);
     }
     @Test
     public void verificar_que_el_nombre_contenga_mas_de_8_caracteres(){
         Persona persona=new Persona("Fideos Marolio 200gr");
         boolean esperado=true;
-        boolean resultado=persona.validar_min_nombre();
+        boolean resultado=persona.validar_nombre();
         assertEquals(esperado,resultado);
     }
 
@@ -67,14 +67,14 @@ public class Isw {
         assertEquals(esperado,resultado);
     }
     @Test
-    public void verificar_longitud_minima_contraseña_usuario(){
+    public void verificar_longitud_contrasena_mayor_8(){
         Persona persona = new Persona();
         boolean esperado = false;
         boolean resultado = persona.validar_max_contraseña("Holanda");
         assertEquals(esperado,resultado);
     }
     @Test
-    public void verificar_cantidad_de_stock_minima() {
+    public void verificar_que_cantidad_no_sea_mayor_stock() {
         Producto producto = new Producto("Remera");
         boolean esperado = false;
         boolean resultado = producto.validar_stock(10);

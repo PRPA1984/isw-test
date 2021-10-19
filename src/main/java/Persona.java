@@ -9,18 +9,13 @@ public class Persona {
         this.nombre = nombre;
     }
 
-    public boolean validar_max_nombre(){
-        if(this.nombre.length()<=30){
+    public boolean validar_nombre(){
+        if(this.nombre.length()<=30 && this.nombre.length()>8){
             return true;
         }
         return false;
     }
-    public boolean validar_min_nombre(){
-        if(this.nombre.length()>8){
-            return true;
-        }
-        return false;
-    }
+
     public boolean validar_max_contraseña(String contraseña) {
 
         if(contraseña.length() > 8){

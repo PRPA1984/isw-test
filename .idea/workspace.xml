@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90d457d7-de4e-447d-8705-9e3ee5ad367e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Isw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Isw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Isw.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Isw.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +37,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Isw">
     <configuration name="Isw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="isw-test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -47,9 +50,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Isw.verificar_largo_descripcion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="isw-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Isw" />
+      <option name="METHOD_NAME" value="verificar_largo_descripcion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Isw" />
+        <item itemvalue="JUnit.Isw.verificar_largo_descripcion" />
       </list>
     </recent_temporary>
   </component>
