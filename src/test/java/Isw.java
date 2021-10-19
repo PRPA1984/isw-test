@@ -75,7 +75,7 @@ public class Isw {
     @Test
     public void verificar_cantidad_de_stock_minima() {
         Producto producto = new Producto("Remera");
-        boolean esperado = true;
+        boolean esperado = false;
         boolean resultado = producto.validar_stock(10);
         assertEquals(esperado,resultado);
 

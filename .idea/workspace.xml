@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90d457d7-de4e-447d-8705-9e3ee5ad367e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Carrito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Carrito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Envio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Envio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Producto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Isw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Isw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Carrito.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IswTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/org.example/isw-test/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/org.example/isw-test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Producto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Isw.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,5 +74,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
