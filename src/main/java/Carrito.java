@@ -3,6 +3,7 @@ import java.util.List;
 
 public class Carrito {
 
+    private int codigoPostal;
     private List<Producto> productos = new ArrayList<Producto>();
 
     public boolean validar_carrito_no_nulo() {
