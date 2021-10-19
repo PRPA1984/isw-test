@@ -33,6 +33,7 @@ public class Isw {
         Producto producto = new Producto(" Fideos","Fideos");
         boolean esperado = false;
         boolean resultado = producto.validar_largo_descripcion();
+        assertEquals(esperado,resultado);
     }
     
     @Test
