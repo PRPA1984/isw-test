@@ -48,4 +48,20 @@ public class Isw {
         boolean resultado=persona.validar_min_nombre();
         assertEquals(esperado,resultado);
     }
+
+    @Test
+    public void verificar_que_no_pueda_validar_codigo_postal_2_caracteres() {
+        Envio envio = new Envio("52");
+        boolean esperado = false;
+        boolean resultado = envio.validar_codigo_postal();
+        assertEquals(esperado,resultado);
+    }
+
+    @Test
+    public void verificar_pueda_validar_codigo_postal_4_caracteres() {
+        Envio envio = new Envio("5200");
+        boolean esperado = true;
+        boolean resultado = envio.validar_codigo_postal();
+        assertEquals(esperado,resultado);
+    }
 }
