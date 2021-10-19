@@ -21,34 +21,18 @@ public class Isw {
     }
 
     @Test
-        public void verificar_que_stock_no_sea_negativo() {
+        public void verificar_que_no_pueda_validar_cantidad_stock_negativo() {
             Producto producto = new Producto("fideos"," fideos ");
-            boolean esperado = true;
-            boolean resultado = producto.validar_stock_negativo(-3);
+            boolean esperado = false;
+            boolean resultado = producto.validar_stock(-3);
             assertEquals(esperado,resultado);
         }
 
-        @Test
-        public void verificar_largo_descripcion() {
-            Producto producto = new Producto(" Fideos","Fideos");
-            boolean esperado = true;
-            boolean resultado = producto.validar_largo_descripcion(producto.descripcion);
-            assertEquals(esperado,resultado);
-        }
-
-        @Test
-        public void verificar_largo_nombre_maximo() {
-            Producto producto = new Producto(" Oferta imperdible por favor compre este maravilloso producto","Fideos");
-            boolean esperado = true;
-            boolean resultado = producto.validar_largo_nombre_maximo(producto.nombre);
-            assertEquals(esperado,resultado);
-        }
-
-        @Test
-        public void verificar_largo_nombre_minimo() {
-            Producto producto = new Producto(" fideos","Fideos");
-            boolean esperado = true;
-            boolean resultado = producto.validar_largo_nombre_minimo(producto.nombre);
-            assertEquals(esperado,resultado);
-        }
+    @Test
+    public void verificar_largo_descripcion() {
+        Producto producto = new Producto(" Fideos","Fideos");
+        boolean esperado = false;
+        boolean resultado = producto.validar_largo_descripcion();
+        assertEquals(esperado,resultado);
+    }
 }
