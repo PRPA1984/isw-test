@@ -1,5 +1,6 @@
 public class Persona {
     private String nombre;
+    private String contraseña;
 
     public Persona() {
     }
@@ -19,5 +20,14 @@ public class Persona {
             return true;
         }
         return false;
+    }
+    public boolean validar_max_contraseña(String contraseña) {
+
+        if(contraseña.length() > 8){
+            return true;
+        }
+        else{
+            return false;
+        }
     }
 }

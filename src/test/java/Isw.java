@@ -65,4 +65,20 @@ public class Isw {
         boolean resultado = envio.validar_codigo_postal();
         assertEquals(esperado,resultado);
     }
+    @Test
+    public void verificar_longitud_minima_contraseña_usuario(){
+        Persona persona = new Persona();
+        boolean esperado = false;
+        boolean resultado = persona.validar_max_contraseña("Holanda");
+        assertEquals(esperado,resultado);
+    }
+    @Test
+    public void verificar_cantidad_de_stock_minima() {
+        Producto producto = new Producto("Remera");
+        boolean esperado = true;
+        boolean resultado = producto.validar_stock(10);
+        assertEquals(esperado,resultado);
+
+    }
 }
+
