@@ -34,7 +34,8 @@ public class Isw {
         boolean esperado = false;
         boolean resultado = producto.validar_largo_descripcion();
     }
-
+    
+    @Test
     public void verificar_que_el_nombre_contenga_menos_de_30_caracteres(){
         Persona persona=new Persona("Fideos Marolio 200gr");
         boolean esperado=true;
