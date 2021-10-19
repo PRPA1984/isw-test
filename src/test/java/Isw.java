@@ -44,9 +44,9 @@ public class Isw {
         assertEquals(esperado,resultado);
     }
     @Test
-    public void verificar_que_el_nombre_contenga_mas_de_8_caracteres(){
-        Persona persona=new Persona("Fideos Marolio 200gr");
-        boolean esperado=true;
+    public void verificar_que_el_nombre_no_contenga_menos_de_8_caracteres(){
+        Persona persona=new Persona("Fideos");
+        boolean esperado=false;
         boolean resultado=persona.validar_nombre();
         assertEquals(esperado,resultado);
     }
